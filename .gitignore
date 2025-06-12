@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.swiftpm/
+
+# Build directories
+build/
+Build/
+.build/
+CMakeFiles/
+CMakeCache.txt
+
+# IDE
+.vscode/
+.idea/
+*.xcworkspace/
+!default.xcworkspace/
+
+# Compiled files
+*.o
+*.a
+*.dylib
+*.so
+*.dll
+*.exe
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Package managers
+Packages/
+.resolved
+Package.resolved
+node_modules/
+
+# Output files
+*.pi
+*.txt
+!CMakeLists.txt
